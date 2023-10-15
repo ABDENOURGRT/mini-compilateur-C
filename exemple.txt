@@ -1,0 +1,49 @@
+Prog {
+    STRUCT {
+		%% c'est une structure
+		FLOAT i;
+		INTEGER j;
+		}strct1;
+    VAR{
+		INTEGER f,a,b;
+        INTEGER c = 1;
+        INTEGER k;
+        INTEGER B[10];
+        STRUCT strct1 ab,bc;
+	}
+ 	CODE{
+        a = 15 - 7;
+        b = 20;
+        B[1] = a + b;
+        k=(((-2)*(-4))+(2+(-3)))/(4*(-2));
+        k = B[1];
+        IF (a > b){
+			    a = a + 2;
+        }
+        ELSE{
+          f = 15;
+        } 
+        IF (a > c){
+			    a = a + 5;
+        }
+        ELSE{
+          f = 10;
+        } 
+        FOR(a:1:1:f){
+            a = a + 1;
+        }
+        ab.i=4.2;
+        bc.j=a;
+        b = 0*a;
+        WHILE(a < b){
+            k=b/2;
+            IF (a > c){
+			        a = a + 5;
+            }
+            ELSE{
+                f = 10;
+                k = 20;
+            }
+        }
+	}
+}

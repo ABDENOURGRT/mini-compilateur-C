@@ -1,0 +1,43 @@
+Prog {
+    VAR{
+		INTEGER f,a,b;
+        INTEGER c = 1;
+        INTEGER k;
+        FLOAT a;
+        INTEGER A[10],B[5];
+	}
+ 	CODE{
+        c[5] = 7;
+        a = 15 - 7;
+        k = 5 * 2;
+        b = 20;
+        A[1] = a + b;
+        k=(((-2)*(-4))+(2+(-3)))/(0*(-2));
+        k = A[c] * B[1];
+        IF (a > b){
+			    a = a + 2;
+          IF (a > c){
+			    a = a + 5;
+          }
+          ELSE{
+            f = 10;
+          } 
+        }
+        ELSE{
+          f = 15;
+        } 
+        FOR(a:1:1:f){
+            a = a + 1;
+        }
+        z = 5;
+        WHILE(a < b){
+            k=b/2;
+            IF (a > c){
+			    a = a + 5;
+            }
+            ELSE{
+                f = 10;
+            }
+        }
+	}
+}
